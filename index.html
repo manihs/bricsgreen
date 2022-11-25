@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="./css/button/bubble.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Nav -->
+  <nav class="position-fixed w-100" style="z-index: 20 ;">
+    <div class="container">
+      <div class="d-block d-md-none">
+        <div class="d-flex p-4 py-5 justify-content-between">
+          <div> <a class="btn btn-dark" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+              <img src="./asserts/menu.svg" alt="">
+            </a></div>
+          <img src="./asserts/Logo.svg" width="70px" alt="">
+          <div></div>
+        </div>
+      </div>
+      <div class="d-none d-md-block">
+        <div class="d-flex p-4 py-4 align-items-center justify-content-between">
+          <img src="./asserts/Logo.svg" width="70px" alt="">
+          <div class="d-flex align-items-center">
+            <div class="navbar-nav ">
+              <a class="nav-link text-white p-3" aria-current="page" href="#">Who We Are</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link text-white p-3" href="#ourVision">Our Vision</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link text-white p-3" href="#whyUs">Why Us</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link text-white p-3" href="">Battery Swap</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link text-white p-3">Become Partner</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link text-white p-3" href="#faq">FAQs</a>
+            </div>
+            <div class="">
+              <a type="button" class="btn btn-success btn-cust px-4 py-3">Contact Us</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <!-- Heroic -->
+  <section class="d-none d-md-block" style="background-image: url('./asserts/section-one.png'); min-height: 100vh;">
+    <div class="py-5"></div>
+    <div class="container">
+      <div class="py-5">
+        <div class="row my-5 py-5">
+          <div class="col my-5">
+            <h1 class="display-3 text-white">Smart Solutions for EV Drivers</h1>
+            <p class="text-muted">Our residential, commercial and fast charging stations are widely compatible, built on
+              open standards and designed to be accessible for everyone.</p>
+            <div class="d-flex">
+              <div class="">
+                <a type="button" class="btn btn-success btn-cust px-4 py-3">Explore Products</a>
+              </div>
+             <div class="">
+                <a type="button" class="btn btn-light btn-cust px-4 py-3 mx-2">More About Us</a>
+             </div>
+            </div>
+            <!-- <div class="mt-5">
+                            <a id="gooey-button" href="/product.html">
+                                Explore Products
+                                <span class="bubbles">
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                    <span class="bubble"></span>
+                                </span>
+                            </a>
+                          <button type="button" class="btn btn-light btn-lg">More About Us</button> 
+                            
+
+                        </div> -->
+          </div>
+          <div class="col d-md-block d-none">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="gooey">
+          <!-- in="sourceGraphic" -->
+          <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+          <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+            result="highContrastGraphic" />
+          <feComposite in="SourceGraphic" in2="highContrastGraphic" operator="atop" />
+        </filter>
+      </defs>
+    </svg>
+  </section>
+
+  <!-- Heroic 2 -->
+  <div class="d-block d-md-none">
+  <section class="d-flex align-items-end overflow-hidden"
+    style="background-image: url('./asserts/section-one.png'); min-height: 100vh;">
+    <div class="">
+      <div class="row my-5 p-5">
+        <div class="col">
+          <h1 class="display-3 text-white">Smart Solutions for EV Drivers</h1>
+          <p class="text-muted">Our residential, commercial and fast charging stations are widely compatible, built on
+            open standards and designed to be accessible for everyone.</p>
+          <div class="d-flex">
+            <a type="button" class="btn btn-success btn-cust px-4 py-3 btn-sm">Explore Products</a>
+            <a type="button" class="btn btn-light btn-cust px-4 py-3 mx-2 btn-sm">More About Us</a>
+          </div>
+        </div>
+        <div class="col d-md-block d-none">
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+  <!--  -->
+  <section>
+    <div class="container">
+      <div class="my-md-5  pt-md-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="h3 pt-5 d-none d-md-block">Paving the Way For the Adoption of EV’s Through our EV Charging
+              Solutions Globally !</h4>
+            <h3 class="h3 pt-5 d-block d-md-none">Paving the Way For the Adoption of EV’s Through our EV Charging
+              Solutions Globally !</h3>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+        <div class="row">
+          <div class="col py-4">
+            <img src="./asserts/pics.png" alt="" class="pt-md-5" width="100%">
+          </div>
+          <div class="col-md-6">
+            <div class="p">
+              BRICS GREEN PRIVATE LIMITED is the Electric vehicle charging station company. We set end to end EV
+              charging station needs with quality, efficiency, technology automation with high standards. We make AC
+              (slow) charger, DC (fast) for cars and E- bus chargers as per your needs with charger application
+              management system (CMS).
+            </div>
+            <!--  -->
+
+            <div class="mt-4">
+              <div class="d-flex align-items-center">
+                <div class="icon">
+                  <img src="./asserts/Vector.png" alt="">
+                </div>
+                <div class="text px-3">Intelligent Identification Battery</div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mt-4">
+              <div class="d-flex align-items-center">
+                <div class="icon">
+                  <img src="./asserts/Vector.png" alt="">
+                </div>
+                <div class="text px-3">Dynamic adjust voltage and current in five stages of charging</div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mt-4">
+              <div class="d-flex align-items-center">
+                <div class="icon">
+                  <img src="./asserts/Vector.png" alt="">
+                </div>
+                <div class="text px-3">Full power off, Over-viltage, Over-current automatic power off</div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mt-4">
+              <div class="d-flex align-items-center">
+                <div class="icon">
+                  <img src="./asserts/Vector.png" alt="">
+                </div>
+                <div class="text px-3">Charging tracking and analyzing the battery</div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mt-4">
+              <div class="d-flex align-items-center">
+                <div class="icon">
+                  <img src="./asserts/Vector.png" alt="">
+                </div>
+                <div class="text px-3">Integrated charging module</div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="mt-4">
+              <div class="d-flex align-items-center">
+                <div class="icon">
+                  <img src="./asserts/Vector.png" alt="">
+                </div>
+                <div class="text px-3">For outdoor charging only</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Vision -->
+  <section id="ourVision">
+    <div class="container">
+      <div class="py-5 my-5">
+        <div class="bg-dark cruve-edge-one overflow-hidden">
+          <div class="row">
+            <div class="col-12 col-md-6 p-5">
+              <div class="p-md-5">
+                <h5 class="text-green">Our Vision</h5>
+                <h2 class="text-white mt-3">Reliable Solutions For All EV Charging Programs !</h2>
+                <p class="text-muted mt-4">
+                  We want to be the leader in the Electric vehicle charging station industry. We want to be the company
+                  that is a one-stop solution for the EV industry. We are looking to expand all over India and other
+                  countries with our chargers on each highway linking to inter-states and inter-cities. We will
+                  eliminate the biggest hurdle of the EV industry of lack of EV charging infrastructure. BRICS GREEN
+                  wants to manufacture most fastest EV vehicle chargers because we value the time of our customers. We
+                  are also looking into wireless EV vehicle chargers as it is our part of R&D
+                </p>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6 p-5"
+              style="background-image: url('./asserts/card.png') ; background-size: cover;">
+              <div class="p-5">
+                <div class="p-5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="whyUs">
+    <div class="row w-90 cruve-right-top overflow-hidden bg-dark">
+      <div class="col-md-3 p-0 d-flex flex-column justify-content-between">
+        <div class="">
+          <img src="./asserts/Rectangle 4824.png" alt="" width="100%">
+        </div>
+        <div class="d-none d-md-block">
+          <img src="./asserts/Rectangle 4826.png" alt="" width="100%">
+        </div>
+      </div>
+      <div class="col-md-9 bg-dark d-flex align-items-center">
+        <div class="p-5">
+          <h3 class="text-white">Why Us</h3>
+
+          <div class="pt-4">
+            <h5 class="text-white">Time</h5>
+            <p class="text-muted">We are specialized in making fast EV chargers within 15-30 minutes</p>
+          </div>
+
+          <div class="pt-4">
+            <h5 class="text-white">Compatible</h5>
+            <p class="text-muted">We make chargers that are compatible with all brands of cars like TATA, MG, HYUNDAI,
+              AUDI, MERCEDES, BMW, PORSCHE, etc.</p>
+          </div>
+
+          <div class="pt-4">
+            <h5 class="text-white">Quality</h5>
+            <p class="text-muted">We make quality chargers that save the battery from drainage and increase battery
+              life.</p>
+          </div>
+
+          <div class="pt-4">
+            <h5 class="text-white">Customization</h5>
+            <p class="text-muted">We can customize a charger for you as per your need and demand.</p>
+          </div>
+
+          <div class="pt-4">
+            <h5 class="text-white">Maintenance</h5>
+            <p class="text-muted">we can maintain your chargers for a lifetime with just a few Annual maintenance
+              charges ( AMC )</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+  <section>
+    <div class="container py-5">
+      <div class=""
+        style="background-image: url('./asserts/Rectangle\ 4853.png'); min-height: 100vh; background-size: cover;">
+        <div class="p-md-5 p-4">
+          <div class="h3 text-white d-block d-md-none">Find Your High Tech, Smart & Simple Solution With Best Overall
+            Economy Charge !</div>
+          <div class="h2 text-white d-none d-md-block">Find Your High Tech, Smart & Simple Solution With Best Overall
+            Economy Charge !</div>
+          <div class="p mt-4 mt-md-0 text-white fw-light">Smart electric car charging is an entirely new reality. Each
+            morning you will find a fully charged serviced car. It will have charged overnight when the electricity is
+            cheapest and it has been able to contribute to the power grid should it be needed.</div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Intelligent Identification Battery</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3 ">High Temperature Alarm</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Over Voltage and Over Current Protection</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Self - Stop fully charged</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Real - Time Networking</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Leakage Protection</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Short Circuit Protection</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">AC Lighting Protection</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Power Monitoring</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Zero current upon idle loading</div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="mt-4">
+                <div class="d-flex align-items-center">
+                  <div class="icon">
+                    <img src="./asserts/Vector.png" alt="">
+                  </div>
+                  <div class="text-white px-3">Overload Protection</div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="">
+                <div class="p-md-5 p-3 bg-green mt-5 mt-md-0 border-5">
+
+                  <p class="text-white d-block d-md-none">As to fit the theme of safe charging, our Battery Charging
+                    Cabinet take the advantages of software and hardware to display the relevant charging abnormal data,
+                    which could also be connected to the fire supervision platform, the safety supervision platform, the
+                    community internet of things platform and the comprehensive management platform.</p>
+
+                  <p class="text-white lh-lg d-none d-md-block">As to fit the theme of safe charging, our Battery
+                    Charging Cabinet take the advantages of software and hardware to display the relevant charging
+                    abnormal data, which could also be connected to the fire supervision platform, the safety
+                    supervision platform, the community internet of things platform and the comprehensive management
+                    platform.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+  <section class="d-flex justify-content-end">
+    <div class="my-5  w-90 cruve-left-top overflow-hidden"
+      style="background-image: url('./asserts/Rectangle-background.png'); background-size: cover;">
+      <div class="p-5">
+        <div class="px-4 py-3">
+          <div class="d-flex">
+            <h2 class="text-white">Solutions For A Variety Of Different Industries!</h2>
+          </div>
+          <div class="row mt-5">
+
+            <div class="card col-12 col-md-3 mx-2 border-radius overflow-hidden px-0 my-2">
+              <div class="card-body p-4">
+                <h5 class="card-title">Workplaces</h5>
+                <p class="card-text small mt-3">Attract top talent by providing sustainable, employee-friendly benefits
+                  such as onsite EV charging stations.</p>
+              </div>
+              <img src="./asserts/one.png" class="card-img-bottom" alt="...">
+            </div>
+
+            <div class="card col-12 col-md-3 mx-2 border-radius overflow-hidden px-0 my-2">
+              <div class="card-body p-4">
+                <h5 class="card-title">Retail & Hospitality</h5>
+                <p class="card-text small mt-3">EV chargers can also be places in the Retail & Hospitality industry as
+                  well. Here customers can get attracted easily.</p>
+              </div>
+              <img src="./asserts/two.png" class="card-img-bottom" alt="...">
+            </div>
+
+            <div class="card col-12 col-md-3 mx-2 border-radius overflow-hidden px-0 my-2">
+              <div class="card-body p-4">
+                <h5 class="card-title">Commercial Parking</h5>
+                <p class="card-text small mt-3">Become EV driver destination by providing EV chargers in all parking
+                  facility. Attract clients with EV apps that charges.</p>
+              </div>
+              <img src="./asserts/three.png" class="card-img-bottom" alt="...">
+            </div>
+
+            <!-- <div class="card col-12 col-md-3 mx-2 border-radius overflow-hidden">
+                          <div class="card-body p-4">
+                            <h5 class="card-title">Builders</h5>
+                            <p class="card-text small mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetu  dolor sit amet, consectetu</p>
+                          </div>
+                          <img src="./asserts/four.png" class="card-img-bottom" alt="...">
+                        </div> -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ask Us -->
+  <section>
+    <div class="my-5 bg-dark w-90 cruve-right-top overflow-hidden">
+      <div class="row">
+        <div class="col-md-6" style="background-image: url('./asserts/car.png'); background-size: cover;">
+          <div class="p-5">
+            <div class="p-5">
+              <div class="p-5"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-5">
+          <div class="p-md-5">
+            <h5 class="text-green">Ask Us</h5>
+            <h2 class="text-white mt-3">Have the Best Knowledge About Anything Related To EV Solutions From Our Experts
+              !</h2>
+            <p class="text-muted mt-4">
+              Enjoy the convenience of charging at home without relying on the availablity of public chargers. Our
+              charging stations are safe and easy-to-use and let you hit the road fully charged, every time.
+            </p>
+            <div class="mt-4">
+              <button type="button" class="btn btn-success btn-cust px-4 py-3">Talk to an Expert</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ's -->
+  <section id="faq">
+    <div class="container">
+      <div class="py-5 text-center bold display-5">FAQ's</div>
+      <div class="py-5">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Why do I need a charger, can I not just use a 13A plug?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-muted">
+                A charger has multiple advantages over a 13A plug -
+                <p>1. Fast Charging: EV Chargers depending upon their rated capacity can charge your EV at much faster
+                  rates (multiple times) compared to 13A plug point.</p>
+                <p>2. Safety: EV Chargers comes with many in-built protection systems which enhances the overall safety.
+                </p>
+                <p>3. Access Control: EV Chargers comes with OTP / RFID authorization systems. So you can rest assured
+                  that no one can misuse charging point at your parking lot without your permission.</p>
+                <p>4. Smart Features: Most EV Chargers comes with features like remote access and control, smart
+                  charging etc. which are not available in 13A plug.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What is a standard installation?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">Standard installation comprises of supplies and services which
+                  are generally required at the time of installation
+                  such as one-time installation activities as per Tata Power approved designs, certain length of cabling
+                  work,
+                  cable casing etc. It does not include any special requirement which may be required at site. Please
+                  read standard installation scope and Terms and Conditions in the offer for more details before
+                  confirming your order.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What is the difference between the charger given to me by the car company and an EZcharge home
+                  charger?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">EZcharge home chargers comes with multiple features which might
+                  not be there in basic charger provided by your car
+                  company. These features may include - Faster Charging rate, Safety & Protection, Access control, Smart
+                  Charging features etc
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Can I buy another brand charger myself from the market and install it?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">EV Charger should be compatible with your EV. It is recommended
+                  that you should buy chargers of a trusted brand only.
+                  Also, charger installation requires expertise since the electricity load can be quite high. Therefore,
+                  it is important that installation be done by authorized experts. Tata Power provides end-to-end
+                  customized solutions and offerings including EV charger supply, installation, CMS subscription and
+                  AMC.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                  How quickly can a home charger be installed, my car delivery is imminent?
+                </button>
+              </h2>
+              <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">Tata Power has Service teams present in 30+ cities (including all
+                  metros and most of the major cities) in India.
+                  Home charger can be installed within even 3 days depending upon your location, site feasibility and
+                  stock availability. Please contact us for a more precise estimate.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                  Can I install the home charger myself? Or using my building electrician?
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">EV Charger installation requires subject expertise since the
+                  electricity load can be quite high (several kW). Therefore, it is important that installation be done
+                  by experts only.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                  I have a plugged in hybrid car, why do I need a separate charger?
+                </button>
+              </h2>
+              <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">EZ Charge home chargers comes with multiple features which might
+                  not be there in basic charger provided by your car company. These features may include - Faster
+                  Charging rate, Safety & Protection, Access control, Smart Charging features etc.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                  Can I use a longer cable and charge a car in the next parking lot?
+                </button>
+              </h2>
+              <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">Yes, you can. However, it depends on the length of connector
+                  cable (cable that connects Charger to your EV Charging port).
+                  Typically, high capacity chargers comes with a standard length (varying between 1.5 m - 4 m).
+                  Some chargers do not come with connector cable and requires either cable provided by Car Company to be
+                  used or purchase of a new connector cable.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                  How do I monitor the electricity consumption of my car charging?
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">Most of Smart charger models have inbuilt electricity meter that
+                  allows you to monitor electricity consumption detail on
+                  Charger UI screen.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                  I am moving house, how do I move my charger?
+                </button>
+              </h2>
+              <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">Home chargers are usually smaller in size and can be handled
+                  easily.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                  If there is a problem with my charger whom do I contact?
+                </button>
+              </h2>
+              <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-muted">Please contact Brics green customer care team for any problems
+                  with your charger which is supplied by Brics green.</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark">
+    <div class="container py-5">
+      <div class="row p-4">
+        <div class="col-md-4">
+          <img src="./asserts/Logo.svg" alt="">
+          <p class="text-muted mt-4">BRICS GREEN PRIVATE LIMITED is the India’s leading electric vehicle fast charging
+            infrastructure company</p>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+            </div>
+            <div class="col">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Solutions</a></li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Vision</a></li>
+            </div>
+            <div class="col">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Become Partner</a></li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Why Us</a></li>
+            </div>
+            <div class="col">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 mt-md-0">
+          <div class="row">
+            <div class="col-1">
+              <img src="./asserts/loction.svg" alt="" width="20px">
+            </div>
+            <div class="col">
+              <p class="text-muted">19/2,2nd floor,Vithal Chambers,above Dena Bank,Shivaji Chowk,Kalyan (W) Dist, Thane
+                - 421 301, Maharashtra</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row">
+            <div class="col-1">
+              <img src="./asserts/phone.svg" alt="" width="20px">
+            </div>
+            <div class="col">
+              <p class="text-muted">9082538027 , 7400438027</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row">
+            <div class="col-1">
+              <img src="./asserts/message.svg" alt="" width="20px">
+            </div>
+            <div class="col">
+              <p class="text-muted">info@bricsgreen.com, tushar@bricsgreen.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="bg-gray">
+      <div class="container py-2 ">
+        <div class="d-flex justify-content-between ">
+          <div class="p text-muted">© Copyright Reserved</div>
+          <div class="p text-muted">Terms & Conditions * Privacy Policy</div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!--  -->
+  <div class="modal fade p-2" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered align-items-stretch border-radius-50 overflow-hidden">
+      <div class="modal-content">
+        <div class="modal-body d-flex flex-column align-items-center">
+          <div class="py-4">
+            <img src="./asserts/logo2.svg" alt="">
+          </div>
+          
+            <div class="navbar-nav text-center">
+              <a class="nav-link text-dark p-3" aria-current="page" href="#">Who We Are</a>
+           
+              <a class="nav-link text-dark p-3" href="#ourVision">Our Vision</a>
+            
+              <a class="nav-link text-dark p-3" href="#whyUs">Why Us</a>
+          
+              <a class="nav-link text-dark p-3">Battery Swap</a>
+           
+              <a class="nav-link text-dark p-3">Become Partner</a>
+            
+              <a class="nav-link text-dark p-3" href="faq">FAQs</a>
+            </div>
+            <div class="">
+              <a type="button" class="btn btn-success btn-cust px-4 py-3 mt-4">Contact Us</a>
+            </div>
+          </div>
+          <div class="py-5 text-center">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Back to Homepage</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--  -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

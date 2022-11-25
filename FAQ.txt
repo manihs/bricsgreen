@@ -1,0 +1,44 @@
+Charging at home Charging on the go Charging at work
+
+
+Why do I need a charger, can I not just use a 13A plug? 
+A charger has multiple advantages over a 13A plug -
+
+1. Fast Charging: EV Chargers depending upon their rated capacity can charge your EV at much faster rates (multiple times) compared to 13A plug point.
+2. Safety: EV Chargers comes with many in-built protection systems which enhances the overall safety.
+3. Access Control: EV Chargers comes with OTP / RFID authorization systems. So you can rest assured that no one can misuse charging point at your parking lot without your permission.
+4. Smart Features: Most EV Chargers comes with features like remote access and control, smart charging etc. which are not available in 13A plug.
+
+
+What is a standard installation? 
+Standard installation comprises of supplies and services which are generally required at the time of installation 
+such as one-time installation activities as per Tata Power approved designs, certain length of cabling work, 
+cable casing etc. It does not include any special requirement which may be required at site. Please read standard installation scope and Terms and Conditions in the offer for more details before confirming your order.
+                           
+                                    What is the difference between the charger given to me by the car company and an EZcharge home charger? 
+EZcharge home chargers comes with multiple features which might not be there in basic charger provided by your car 
+company. These features may include - Faster Charging rate, Safety & Protection, Access control, Smart Charging features etc
+
+                                    Can I buy another brand charger myself from the market and install it? 
+EV Charger should be compatible with your EV. It is recommended that you should buy chargers of a trusted brand only. 
+Also, charger installation requires expertise since the electricity load can be quite high. Therefore, it is important that installation be done by authorized experts. Tata Power provides end-to-end customized solutions and offerings including EV charger supply, installation, CMS subscription and AMC.
+                                   How quickly can a home charger be installed, my car delivery is imminent? 
+Tata Power has Service teams present in 30+ cities (including all metros and most of the major cities) in India. 
+Home charger can be installed within even 3 days depending upon your location, site feasibility and stock availability. Please contact us for a more precise estimate.
+                                     Can I install the home charger myself? Or using my building electrician? 
+EV Charger installation requires subject expertise since the electricity load can be quite high (several kW). Therefore, it is important that installation be done by experts only.
+                                   I have a plugged in hybrid car, why do I need a separate charger? 
+EZ Charge home chargers comes with multiple features which might not be there in basic charger provided by your car company. These features may include - Faster Charging rate, Safety & Protection, Access control, Smart Charging features etc.
+                                 Can I use a longer cable and charge a car in the next parking lot? 
+Yes, you can. However, it depends on the length of connector cable (cable that connects Charger to your EV Charging port). 
+Typically, high capacity chargers comes with a standard length (varying between 1.5 m - 4 m). 
+Some chargers do not come with connector cable and requires either cable provided by Car Company to be used or purchase of a new connector cable.
+                                 How do I monitor the electricity consumption of my car charging? 
+Most of Smart charger models have inbuilt electricity meter that allows you to monitor electricity consumption detail on 
+Charger UI screen.
+                                I am moving house, how do I move my charger? 
+Home chargers are usually smaller in size and can be handled easily.
+                                If there is a problem with my charger whom do I contact? 
+Please contact Brics green customer care team for any problems with your charger which is supplied by Brics green.
+                                 
+

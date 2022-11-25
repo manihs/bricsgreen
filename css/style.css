@@ -1,0 +1,44 @@
+.cruve-edge-one {
+    border-radius: 100px 0px 100px 0px;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.cruve-right-top {
+    border-radius: 0px 100px 0px 0px;
+}
+
+.cruve-left-top {
+    border-radius: 100px 0px 0px 0px;
+}
+
+.btn-cust{
+    background: #3E8527;
+    border-radius: 20px 0px!important;
+}
+
+.text-green {
+    color: #68D046!important;
+}
+
+.bg-green {
+    background: #3E8527;
+}
+
+.border-5 {
+    border: 5px solid white;
+}
+
+.border-radius {
+    border-radius: 20px 0px!important;
+}
+
+.border-radius-50 {
+    border-radius: 50px 0px!important;
+}
+
+.bg-gray {
+    background-color: #1C1B1B;
+}
